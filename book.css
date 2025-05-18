@@ -1,0 +1,137 @@
+body{
+  background-color: #d0e3ff;
+  justify-content: center;
+  align-items: center;
+  font-family: 'andale mono', monospace;
+  min-height: 100vh;
+}
+/*generator 1*/
+.container1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #edf1f6;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#book-rom {
+    height: 364px;
+    width: 236px;
+}
+#generateBtn1 {
+    padding: 10px 20px;
+    background-color: #556677;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/*generator 2*/
+.container2 {
+    text-align: center;
+    padding: 20px;
+    background-color:  #edf1f6;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#book-fan {
+    height: 364px;
+    width: 236px;
+}
+#generateBtn2 {
+    padding: 10px 20px;
+    background-color: #556677;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*generator 3*/
+.container3 {
+    text-align: center;
+    padding: 20px;
+    background-color:  #edf1f6;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#book-my {
+    height: 364px;
+    width: 236px;
+}
+#generateBtn3 {
+    padding: 10px 20px;
+    background-color: #556677;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*generator 4*/
+.container4 {
+    text-align: center;
+    padding: 20px;
+    background-color:  #edf1f6;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+#book-his {
+    height: 364px;
+    width: 236px;
+}
+#generateBtn4 {
+    padding: 10px 20px;
+    background-color: #556677;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*generator 5*/
+.container5 {
+    text-align: center;
+    padding: 20px;
+    background-color:  #edf1f6;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#book-hor {
+    height: 364px;
+    width: 236px;
+}
+#generateBtn5 {
+    padding: 10px 20px;
+    background-color: #556677;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+p{
+  font-size: 20px;
+  text-align: center;
+}
+h1{
+  font-size: 56px;
+  text-align: center;
+}
+
+h4{
+  font-size: 28px;
+}
+
+
+
+.back{
+  width: 70px;
+  border-radius: 300px;
+  height: 40px;
+  background-image:linear-gradient(#d7b4ee,#ffffff);
+  cursor: pointer;
+  
+}
