@@ -1,0 +1,230 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+/*home page css*/
+#homepage {
+  background-color: #ead8cc;
+  
+  /* The background image */
+  background-image: url("https://gifdb.com/images/high/pastel-sky-background-3garh8rnc14jym78.gif");
+
+  
+
+  
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#heading {
+  font-family: Snell Roundhand, Brush Script MT, Brush Script Std, cursive;
+  font-weight: 90;
+  font-size: 70px;
+  text-align:center;
+  
+}
+.Button1{
+  position:relative;
+  width: 250px;
+  
+}
+
+.Overlay1{
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+}
+.Button1:Hover .Overlay1{
+  opacity: 1;
+}
+.text1 {
+  color: white;
+  font-size: 25px;
+  font-family: Snell Roundhand, Brush Script MT, Brush Script Std, cursive;
+  /* position:relative; */
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 50%;
+  bottom:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+/*.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
+
+.Button2{
+  position:relative;
+  width: 250px;
+  
+}
+
+.Overlay2{
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+}
+.Button2:Hover .Overlay2{
+  opacity: 1;
+}
+.text2 {
+  color: white;
+  font-size: 25px;
+  font-family: Snell Roundhand, Brush Script MT, Brush Script Std, cursive;
+  /* position:relative; */
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 50%;
+  bottom:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.Button3{
+  position:relative;
+  width: 250px;
+  
+}
+
+.Overlay3{
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+}
+.Button3:Hover .Overlay3{
+  opacity: 1;
+}
+.text3 {
+  color: white;
+  font-size: 25px;
+  font-family: Snell Roundhand, Brush Script MT, Brush Script Std, cursive;
+  /* position:relative; */
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 50%;
+  bottom:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+#p1{
+  text-align:center;
+  text-shadow: #0000;
+}
+
+/*#Title{
+  text-align: center;
+  font-family:Snell Roundhand, Brush Script MT, Brush Script Std, cursive;
+  font-size: 40px;
+  font-weight:100;
+}*/
+
+#bookButton{
+  appearance: none;
+  border: none;
+  background-image: url("Images/bookshelveswithladders.jpg");
+  cursor: pointer;
+  margin:0;
+  padding:0;
+  width:250px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+#MusicButton{
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding:0;
+  width:250px;
+  height: 250px;
+  border-radius: 50px;
+  background-image: url("https://i.pinimg.com/originals/86/9a/6e/869a6effc58e646cc7b0a348c71c1fe4.gif");
+  background-position: center;
+  background-size:fill;
+  
+
+}
+
+
+#AboutButton{
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding:0;
+  width:250px;
+  height: 250px;
+  border-radius: 50px;
+  background-image: url("https://i.pinimg.com/564x/35/69/6d/35696dea9372b97c7e0addf8433b496c.jpg");
+  background-position: center;
+  background-size:contain;
+}
+
+
+
+.Row1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 200px;
+  
+}
